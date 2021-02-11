@@ -1,4 +1,4 @@
---
+---
 title: "Structuring LaTeX Documents"
 teaching: 15
 exercises: 5

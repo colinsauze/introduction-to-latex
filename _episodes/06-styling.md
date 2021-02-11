@@ -1,4 +1,4 @@
---
+---
 title: "Styling Documents"
 teaching: 15
 exercises: 5
