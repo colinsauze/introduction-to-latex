@@ -27,6 +27,7 @@ LaTeX (pronounced Laytec) is a document preparation and typesetting system that 
 * Separates layout and content
 * Formatting (mostly) handled automatically
 * Good handling of citations and references
+* Easy to write maths into a document
 * Popular in academic publishing, some journals and conferences will supply a LaTeX template.
 * Free and Open Source
 * Produces beautiful documents
@@ -38,6 +39,7 @@ LaTeX (pronounced Laytec) is a document preparation and typesetting system that 
 * Unhelpful error messages
 * Complicated set of addons
 * Getting things to look exactly how you want can be hard
+* You can't see exactly what the document will look as you work on it (although some editors have live previews)
 
 ## LaTeX vs TeX
 
