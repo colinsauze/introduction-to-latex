@@ -25,7 +25,7 @@ Does windows need MiKTeX?????
 
 # Running LaTeX from the command line
 
-(Note this won't work if you're using OverLeaf, if you are then paste in the contents of the document and press compile)
+LaTeX code has to be 'compiled' to convert it from the LaTeX language into a PDF file which can be easily viewed, distributed or printed. One method for doing this is to run the command `pdflatex` from the command line and tell it which LaTeX file we want to compile. Providing there are no errors this will convert the LaTeX into a PDF file.
 
 Download the example file `helloworld.tex` from (https://github.com/colinsauze/introduction-to-latex/raw/gh-pages/files/helloworld.tex)[https://github.com/colinsauze/introduction-to-latex/raw/gh-pages/files/helloworld.tex].
 
@@ -67,5 +67,30 @@ Output written on helloworld.pdf (1 page, 26419 bytes).
 Transcript written on helloworld.log.
 ~~~
 
-It should also create a file called `helloworld.pdf` in the same directory which you can open in a PDF viewer such as Adobe Acrobat.
+It should also create a file called `helloworld.pdf` in the same directory which you can open in a PDF viewer such as Adobe Acrobat. It will also create some other temporary files called `helloworld.aux` and `helloworld.log`. These can be deleted afer you've compiled your document.
+
+# Running LaTeX from TeXstudio
+
+Now we'll paste the same code we used above into TeXstudio, then save the document and press the green button that looks like a play symbol with a tail on it or press the 'F5' key or click on the "Tools" menu and choose "Build and View".
+![The icon to build and display in TeXStudio]({{ page.root }}/fig/texstudio-build-and-view.png)
+
+![TeXStudio showing the preview]({{ page.root }}/fig/texstudio-example.png)
+
+## Building a PDF with TeXstudio
+
+Instead of previewing inside TeXstudio we can also build a PDF file by clicking on the green Play button, pressing 'F6' or choosing 'Compile' from the Tools menu.
+
+# Running LaTeX from Overleaf
+
+* Go to [www.overleaf.com](https://www.overleaf.com) in your web browser.
+* Create a new account (if you don't already have one) and login.
+* Click on "New Project" and choose "Blank Project", give the project a name.
+* You'll be taken to a screen with some example LaTeX code already entered.
+* Replace this with the code we entered above or upload the `helloworld.tex` file we downloaded.
+* Click on the green "Recompile" button near the top middle of the screen.
+* After a few seconds this should build your document and show it on the right side of the screen.
+* Click on the download icon if you want a copy of the PDF.
+
+![Overleaf Screenshot]({{ page.root }}/fig/overleaf.png)
+
 
