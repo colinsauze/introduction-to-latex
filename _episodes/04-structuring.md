@@ -1,7 +1,7 @@
 --
 title: "Structuring LaTeX Documents"
-teaching: 10
-exercises: 0
+teaching: 15
+exercises: 5
 questions:
 - "How do you break up the structure of a LaTeX document?"
 objectives:
@@ -9,7 +9,7 @@ objectives:
 keypoints:
 - "LaTeX lets us split up documents into sections, subsections, subsubsections etc."
 - "Some document classes allow extra commands like chapters, tables of contents etc."
-- ""
+- "We can label parts of the document with the \label{} command and reference them with the \ref{} command"
 ---
 
 
@@ -144,9 +144,35 @@ To add Appendicies on the end of a document we need to first use a class that su
 
 
 
-# Sometimes you have to recompile multiple times
+## Sometimes you have to recompile multiple times
 ~~~
 Sometimes things such as table of contents don't update the first time we recompile a document after adding them. This is because some information about things further into the LaTeX document isn't known the first time we compile, but as it compiles its entered into the .aux file which is read by the LaTeX compiler on the second pass. As we'll see in a future section the same thing can happen with bibliographic references.
 ~~~
 {: .callout}
+
+
+## Labelling and Referencing Sections
+It can be useful to be able to reference another section by its number of a document sometimes, for example to be able to say "see section 5 for more discussion about this". LaTeX can help us do this and automatically keep the section number correct even as we make changes to the document. To do this we need to do two things, firstly we have to label the section being referred to and then we have to reference that label. This is done with the `\label{}` and `\reference{}` commands. The label command wants us to give the label a name, by convention if we're labelling a section we'll start the label with "sec:", a subsection with "subsec:". As we'll see later labels can also be used for figures and tables and these would start their labels "fig:" or "tab:". This is only a convention though and LaTeX doesn't actually care what you use, but when you create a large document with hundreds of labels it can really help to know which is which.
+
+~~~
+\documentclass{article}
+\begin{document}
+	\title{My first LaTeX paper}
+	\author{Jane Doe}
+	\maketitle
+	\newpage
+	\tableofcontents
+	\newpage
+	\section{Introduction}
+	Write introduction here....
+	\section{Background}\label{sec:background}
+	Write background here...
+	\section{Methods}
+	As we discussed in section \ref{sec:background}......
+\end{document}
+~~~
+{: .latex}
+
+When it compiles you should see that `\ref{sec:background}` is replaced with "2". If we were now to insert another section between Introduction and Background it would automatically change to "3".
+
 
