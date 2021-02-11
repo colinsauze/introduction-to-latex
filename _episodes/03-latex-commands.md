@@ -140,7 +140,7 @@ The text for my abstract..
 > > \end{document}
 > > ~~~
 > > {: .latex}
-> {. solution}
+> {: .solution}
 {: .challenge}
 
 
@@ -163,8 +163,7 @@ The text for my abstract..
 > > \end{document}
 > > ~~~
 > > {: .latex}
-> {. solution}
-
+> {: .solution}
 {: .challenge}
 
 > ## Centering Text
@@ -188,5 +187,5 @@ The text for my abstract..
 > > \end{document}
 > > ~~~
 > > {: .latex}
-> {. solution}
+> {: .solution}
 {: .challenge}
