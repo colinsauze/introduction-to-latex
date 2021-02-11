@@ -1,4 +1,4 @@
---
+---
 title: "Running LaTeX?"
 teaching: 10
 exercises: 0
