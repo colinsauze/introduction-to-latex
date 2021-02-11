@@ -94,3 +94,11 @@ Instead of previewing inside TeXstudio we can also build a PDF file by clicking 
 ![Overleaf Screenshot]({{ page.root }}/fig/overleaf.png)
 
 
+> ## Compiling a document yourself
+>
+> Pick one of the methods shown above (a simple text editor, TeXStudio or Overleaf) and do the following:
+>
+> 1. Paste in the hello world document above.
+> 2. Change the author to your own name.
+> 3. Compile the code to make a PDF file and open it in a PDF viewer.
+{: .challenge}
