@@ -91,7 +91,7 @@ Instead of previewing inside TeXstudio we can also build a PDF file by clicking 
 * After a few seconds this should build your document and show it on the right side of the screen.
 * Click on the download icon if you want a copy of the PDF.
 
-![Overleaf Screenshot]({{ page.root }}/fig/overleaf.png)
+![Overleaf Screenshot]({{ page.root }}/fig/Overleaf.png)
 
 
 > ## Compiling a document yourself
