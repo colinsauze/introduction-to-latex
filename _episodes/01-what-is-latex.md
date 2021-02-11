@@ -1,4 +1,4 @@
---
+---
 title: "What is LaTeX?"
 teaching: 10
 exercises: 0
