@@ -53,6 +53,7 @@ Some characters which we can type on the keyboard won't actually appear if we ty
 > Dear Professor Schrödinger,
 > Please find enclosed €200 for the cat you sold me.
 > Yours Sincerely Émilie du Châtelet
+> > ## Solution
 > > ~~~
 > > \documentclass{letter}
 > > \usepackage{eurosym}
