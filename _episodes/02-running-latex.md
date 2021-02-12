@@ -16,9 +16,8 @@ keypoints:
 
 # Setting up LaTeX
 
-* Linux users install the package texlive using your package manager or [TeXStudio](https://www.texstudio.org/#download)
-* Windows users install [TeXStudio](https://www.texstudio.org/#download)
-Does windows need MiKTeX?????
+* Linux users install the package texlive using your package manager and [TeXStudio](https://www.texstudio.org/#download)
+* Windows users install [MiKTeX](https://miktex.org/download) and [TeXStudio](https://www.texstudio.org/#download)
 * Mac users download [MacTeX](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) and [TeXStudio](https://github.com/texstudio-org/texstudio/releases/download/3.0.4/texstudio-3.0.4-osx.dmg)
 * If you can't install anything you can use [Overleaf](https://www.overleaf.com/) in your web browser.
 
@@ -27,7 +26,7 @@ Does windows need MiKTeX?????
 
 LaTeX code has to be 'compiled' to convert it from the LaTeX language into a PDF file which can be easily viewed, distributed or printed. One method for doing this is to run the command `pdflatex` from the command line and tell it which LaTeX file we want to compile. Providing there are no errors this will convert the LaTeX into a PDF file.
 
-Download the example file `helloworld.tex` from (https://github.com/colinsauze/introduction-to-latex/raw/gh-pages/files/helloworld.tex)[https://github.com/colinsauze/introduction-to-latex/raw/gh-pages/files/helloworld.tex].
+Download the [example file]({{ page.root }}/files/helloworld.tex) `helloworld.tex`.
 
 Or type out the code in your favourite text editor and save it as helloworld.tex
 

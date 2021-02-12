@@ -131,6 +131,7 @@ See table \ref{tab:example} for a table of numbers.
 > * Create a solid line between the days of the week and the numbers
 > * Caption it "Calendar for February 2021"
 > * Give it the label "tab:calendar-feb-2021", write some text to reference this label underneath the table.
+> > ~~~
 > > \documentclass{article}
 > > \begin{document}
 > > \begin{table}
@@ -147,8 +148,10 @@ See table \ref{tab:example} for a table of numbers.
 > > \end{table}
 > > See table \ref{tab:calendar-feb-2021} for a calendar of February 2021.
 > > \end{document}
-> > {: .solution}
-> {: .challenge}
+> > ~~~
+> > {: .latex}
+> {: .solution}
+{: .challenge}
 
 # Images in LaTeX
 Images in LaTeX require a special pacakge called graphicx to be included, an image starts with the `\begin{figure}` command and is then followed with the `\includegraphics{filename}` commmand and finally `\end{figure}`.
@@ -212,3 +215,15 @@ Image sizes on the page can be specified with the [width=xcm] or [height=xcm] op
 Figure \ref{fig:chemicals} shows the chemical structure of Corticosterone.
 ~~~
 {: .latex}
+
+
+> # Images Exercise
+> Place the following lines of code in the correct order:
+> 1. \includegraphics[width=5cm]{mypicture.jpg}
+> 2. \begin{figure}
+> 3. \end{figure}
+> 4. \caption{label{fig:mypic}A Picture of me}
+> > # Solution
+> > 2,1,4,3
+> {: .solution}
+{: .challenge}

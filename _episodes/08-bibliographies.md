@@ -59,7 +59,7 @@ We can cite a text like \cite{goossens93}  or \cite{greenwade93} with the cite c
 > Cite Hawking's Paper in your text
 > > ## Solutions
 > > Hawking's paper's Bibtex can be found at https://journals.aps.org/prl/export/10.1103/PhysRevLett.116.231301
-> > The code to cite it will be \cite{PhysRevLett.116.231301} (assuming you didn't change the key's name
+> > The code to cite it will be \cite{PhysRevLett.116.231301} (assuming you didn't change the key's name)
 > {: .solution}
 {: .challenge}
 

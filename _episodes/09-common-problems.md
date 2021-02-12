@@ -44,6 +44,6 @@ LaTeX often doesn't like URLs in the code. Use the hyperref package and the `\ur
 
 ![A screenshot of LyX]({{ page.root }}/fig/lyx.png)
 
-* latex2rtf converts LaTeX output to RTF files which can be read by MS Word. Useful for when you need to give somebody who doesn't know LaTeX a document for them to edit or a Journal insists on Word file submissions.
+* [latex2rtf](http://latex2rtf.sourceforge.net/) converts LaTeX output to RTF files which can be read by MS Word. Useful for when you need to give somebody who doesn't know LaTeX a document for them to edit or a Journal insists on Word file submissions.
 
 * [jabref](https://www.jabref.org/) is a BibTeX database manager that lets you manage your BibTeX database. [Mendeley](https://blog.mendeley.com/tag/bibtex/) can also export to BibTeX.
