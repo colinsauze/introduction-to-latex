@@ -159,7 +159,7 @@ Computer code can be loaded from a source file instead of being pasted into LaTe
 > > ~~~
 > > {: .latex}
 > {: .solution}
-{: .caption}
+{: .challenge}
 
 
 
