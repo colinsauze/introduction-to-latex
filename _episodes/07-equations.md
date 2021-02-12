@@ -127,7 +127,7 @@ Computer code can be loaded from a source file instead of being pasted into LaTe
 {: .latex}
 
 > ## Including and Equations Code Exercise
-> Create a LaTeX document with the following source code included. You can download this code as a file from [{{ page.root }}/files/sine_curve.py]({{ page.root }}/files/sine_curve.py). Write a caption stating that this is the code for generating the curve of ![\y=sin(x)](https://latex.codecogs.com/svg.latex?y=sin\(x\)). 
+> Create a LaTeX document with the following source code included. You can download this code as a file from [{{ page.root }}/files/sine_curve.py]({{ page.root }}/files/sine_curve.py). Write a caption stating that this is the code for generating the curve of ![\y=sin(x)](https://latex.codecogs.com/svg.latex?y=sin\(x\))
 > ~~~
 > import matplotlib as mpl
 > import matplotlib.pyplot as plt
