@@ -4,14 +4,16 @@ teaching: 15
 exercises: 5
 questions:
 - "How do style the text in LaTeX documents?"
+- "How can we create lists in LaTeX?"
 objectives:
-- ""
+- "Understand how to apply styles to LaTeX documents"
 keypoints:
 - "we can style text with bold, underline, italic, superscript etc"
 - "Some characters such as accented characters, £ signs, percent signs need special LaTeX commands to appear."
 - "Extra spaces don't get shown by LaTeX, use the space command if you want extra spaces or newline to get a newline"
-- "Siunitx"
-- "Lists"
+- "Some extra characters can be added by using some extra packages. The Siunitx is one such package, it provides SI units."
+- "We can make numbered lists with the enumerate environment."
+- "We can make un-numbered lists with the itemize environment."
 ---
 
 
@@ -59,6 +61,8 @@ Some characters which we can type on the keyboard won't actually appear if we ty
 > > Please find enclosed \euro{200} for the cat you sold me.
 > > Yours Sincerely \'Emilie du Ch\^atelet
 > > \end{document}
+> > ~~~
+> > {: .latex}
 > {: .solution}
 {: .challenge}
 
