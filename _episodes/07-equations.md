@@ -102,6 +102,15 @@ int main(int argc,char **argv) {
 ~~~
 {: .latex}
 
+### Captioning Code Listings
+The listings package doesn't support the `\caption{}` command we've used on tables and images. Instead add a `caption` parameter in `[` and `]` to the `\begin{lstlisting}` command. For example:
+
+~~~
+\begin{lstlisting}[caption=Caption text here]
+~~~
+{: .latex}
+
+
 ### Loading computer code from a file
 
 Computer code can be loaded from a source file instead of being pasted into LaTeX. This way the document can always reflect the latest version of your code. This is done using the `\lstinputlisting{}` command, where the filename is the argument. An optional extra argument can specify the language inside square brackets `[` and `]` symbols with the word `language=` followed by the language name, for example `[language=C]` or `[language=python]`. 
@@ -114,6 +123,38 @@ Computer code can be loaded from a source file instead of being pasted into LaTe
 \end{document}
 ~~~
 {: .latex}
+
+> ## Including and Equations Code Exercise
+> Create a LaTeX document with the following source code included. You can download this code as a file from [{{ page.root }}/files/sine_curve.py]({{ page.root }}/files/sine_curve.py). Write a caption stating that this is the code for generating the curve of $y = sin(x)$. 
+> ~~~
+> import matplotlib as mpl
+> import matplotlib.pyplot as plt
+> import numpy as np
+> x = np.arange(0, 10, 0.1);
+> y = np.sin(x)
+> plt.plot(x, y)
+> plt.title('Sine Curve')
+> plt.show()
+> ~~~
+> {: .python}
+> > ## Solution
+> > \documentclass{article}
+> > \usepackage{listings}
+> > \begin{document}
+> > \lstset{language=python}
+> > \begin{lstlisting}[caption={Below the code to generate the curve of $y=sin(x)$}]
+> > import matplotlib as mpl
+> > import matplotlib.pyplot as plt
+> > import numpy as np
+> > x = np.arange(0, 10, 0.1);
+> > y = np.sin(x)
+> > plt.plot(x, y)
+> > plt.title('Sine Curve')
+> > plt.show()
+> > \end{lstlisting}
+> > \end{document}
+> {: .solution}
+{: .caption}
 
 
 
