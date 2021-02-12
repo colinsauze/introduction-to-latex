@@ -113,6 +113,9 @@ Its also possible to nest one list inside another, even if that list is of a dif
 
 
 > ## Lists and packages exercises
+> 1. Replace the _____ sections with the correct answers.
+> 2. What does [binary-units=true] do on the second line?
+> 3. What does \sisetup{group-separator = {,}} do on the third line?
 > ~~~
 > \documentclass{article}
 > \usepackage[binary-units=true]{siunitx}
@@ -129,9 +132,7 @@ Its also possible to nest one list inside another, even if that list is of a dif
 > 	\end{itemize}
 > \end{document}
 > ~~~
-> 1. Replace the _____ sections with the correct answers.
-> 2. What does [binary-units=true] do on the second line?
-> 3. What does \sisetup{group-separator = {,}} do on the third line?
+> {: .latex}
 > > ## Solution
 > > 1. enumerate and giga
 > > 2. Allows us to use the \byte in siunitx, since bytes aren't actually an SI unit
