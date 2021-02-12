@@ -93,7 +93,7 @@ Write conclusion here...
 > > \end{document}
 > > ~~~
 > > {: .latex}
-> {:. solution}
+> {: .solution}
 {: .challenge}
 
 > ## Creating Chapters
