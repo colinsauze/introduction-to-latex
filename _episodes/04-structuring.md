@@ -145,10 +145,8 @@ To add Appendicies on the end of a document we need to first use a class that su
 
 
 ## Sometimes you have to recompile multiple times
-~~~
-Sometimes things such as table of contents don't update the first time we recompile a document after adding them. This is because some information about things further into the LaTeX document isn't known the first time we compile, but as it compiles its entered into the .aux file which is read by the LaTeX compiler on the second pass. As we'll see in a future section the same thing can happen with bibliographic references.
-~~~
-{: .callout}
+> Sometimes things such as table of contents don't update the first time we recompile a document after adding them. This is because some information about things further into the LaTeX document isn't known the first time we compile, but as it compiles its entered into the .aux file which is read by the LaTeX compiler on the second pass. As we'll see in a future section the same thing can happen with bibliographic references.
+> {: .callout}
 
 
 ## Labelling and Referencing Sections
