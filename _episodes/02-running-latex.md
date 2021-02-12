@@ -26,7 +26,7 @@ keypoints:
 
 LaTeX code has to be 'compiled' to convert it from the LaTeX language into a PDF file which can be easily viewed, distributed or printed. One method for doing this is to run the command `pdflatex` from the command line and tell it which LaTeX file we want to compile. Providing there are no errors this will convert the LaTeX into a PDF file.
 
-Download the example file `helloworld.tex` from [{{ page.root }}/files/helloworld.tex]({{ page.root }}/files/helloworld.tex).
+Download the [example file]({{ page.root }}/files/helloworld.tex) `helloworld.tex`.
 
 Or type out the code in your favourite text editor and save it as helloworld.tex
 
