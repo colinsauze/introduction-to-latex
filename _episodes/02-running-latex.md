@@ -16,9 +16,8 @@ keypoints:
 
 # Setting up LaTeX
 
-* Linux users install the package texlive using your package manager or [TeXStudio](https://www.texstudio.org/#download)
-* Windows users install [TeXStudio](https://www.texstudio.org/#download)
-Does windows need MiKTeX?????
+* Linux users install the package texlive using your package manager and [TeXStudio](https://www.texstudio.org/#download)
+* Windows users install [MiKTeX](https://miktex.org/download) and [TeXStudio](https://www.texstudio.org/#download)
 * Mac users download [MacTeX](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) and [TeXStudio](https://github.com/texstudio-org/texstudio/releases/download/3.0.4/texstudio-3.0.4-osx.dmg)
 * If you can't install anything you can use [Overleaf](https://www.overleaf.com/) in your web browser.
 
