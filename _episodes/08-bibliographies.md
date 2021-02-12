@@ -1,6 +1,6 @@
 ---
 title: "Bibliographies"
-teaching: 15
+teaching: 10
 exercises: 5
 questions:
 - "How do you include bibliographic references?"
