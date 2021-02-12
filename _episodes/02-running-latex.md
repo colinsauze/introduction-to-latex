@@ -1,7 +1,7 @@
 ---
 title: "Running LaTeX"
 teaching: 10
-exercises: 0
+exercises: 5
 questions:
 - "how do we build a LaTex document?"
 - "What are the common editors for LaTeX?"
