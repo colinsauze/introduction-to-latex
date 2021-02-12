@@ -218,13 +218,13 @@ Figure \ref{fig:chemicals} shows the chemical structure of Corticosterone.
 {: .latex}
 
 
-> # Images Exercise
+> ## Images Exercise
 > Place the following lines of code in the correct order:
 > 1. \includegraphics[width=5cm]{mypicture.jpg}
 > 2. \begin{figure}
 > 3. \end{figure}
 > 4. \caption{label{fig:mypic}A Picture of me}
-> > # Solution
+> > ## Solution
 > > 2,1,4,3
 > {: .solution}
 {: .challenge}
