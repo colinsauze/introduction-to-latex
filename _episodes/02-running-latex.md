@@ -1,5 +1,5 @@
 ---
-title: "Running LaTeX?"
+title: "Running LaTeX"
 teaching: 10
 exercises: 0
 questions:
@@ -73,7 +73,7 @@ It should also create a file called `helloworld.pdf` in the same directory which
 Now we'll paste the same code we used above into TeXstudio, then save the document and press the green button that looks like a play symbol with a tail on it or press the 'F5' key or click on the "Tools" menu and choose "Build and View".
 ![The icon to build and display in TeXStudio]({{ page.root }}/fig/texstudio-build-and-view.png)
 
-![TeXStudio showing the preview]({{ page.root }}/fig/texstudio-example.png)
+![TeXStudio showing the preview]({{ page.root }}/fig/TeXStudio-example.png)
 
 ## Building a PDF with TeXstudio
 
