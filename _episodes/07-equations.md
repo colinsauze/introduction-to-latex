@@ -138,6 +138,7 @@ Computer code can be loaded from a source file instead of being pasted into LaTe
 > ~~~
 > {: .python}
 > > ## Solution
+> > ~~~
 > > \documentclass{article}
 > > \usepackage{listings}
 > > \begin{document}
@@ -153,6 +154,8 @@ Computer code can be loaded from a source file instead of being pasted into LaTe
 > > plt.show()
 > > \end{lstlisting}
 > > \end{document}
+> > ~~~
+> > {: .latex}
 > {: .solution}
 {: .caption}
 
