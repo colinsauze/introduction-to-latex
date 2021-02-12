@@ -124,6 +124,7 @@ See table \ref{tab:example} for a table of numbers.
 
 > ## Tables exercise
 > Create a table to show a calendar and do the following:
+>
 > 1. Give it 7 columns and 5 rows,
 > 2. Make each 1.5cm wide
 > 3. Make the first row the days of the week, starting from Monday (or just Mon). Make these in bold text.
@@ -131,6 +132,7 @@ See table \ref{tab:example} for a table of numbers.
 > 5. Create a solid line between the days of the week and the numbers
 > 6. Caption it "Calendar for February 2021"
 > 7. Give it the label "tab:calendar-feb-2021", write some text to reference this label underneath the table.
+>
 > > ## Solution
 > > ~~~
 > > \documentclass{article}
@@ -220,10 +222,12 @@ Figure \ref{fig:chemicals} shows the chemical structure of Corticosterone.
 
 > ## Images Exercise
 > Place the following lines of code in the correct order:
+>
 > 1. \includegraphics[width=5cm]{mypicture.jpg}
 > 2. \begin{figure}
 > 3. \end{figure}
 > 4. \caption{label{fig:mypic}A Picture of me}
+>
 > > ## Solution
 > > 2,1,4,3
 > {: .solution}
