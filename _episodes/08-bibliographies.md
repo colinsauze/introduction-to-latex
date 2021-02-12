@@ -58,7 +58,7 @@ We can cite a text like \cite{goossens93}  or \cite{greenwade93} with the cite c
 > Some publishers will export bibtex from their websites that you can include in your database. Find the BibTeX for the paper "Soft Hair on Black Holes" by Stephen Hawking and add it to your database.
 > Cite Hawking's Paper in your text
 > > ## Solutions
-> > Hawking's paper's Bibtex can be found at (https://journals.aps.org/prl/export/10.1103/PhysRevLett.116.231301)[https://journals.aps.org/prl/export/10.1103/PhysRevLett.116.231301]
+> > Hawking's paper's Bibtex can be found at [https://journals.aps.org/prl/export/10.1103/PhysRevLett.116.231301](https://journals.aps.org/prl/export/10.1103/PhysRevLett.116.231301)
 > > The code to cite it will be \cite{PhysRevLett.116.231301} (assuming you didn't change the key's name)
 > {: .solution}
 {: .challenge}
