@@ -124,13 +124,13 @@ See table \ref{tab:example} for a table of numbers.
 
 > ## Tables exercise
 > Create a table to show a calendar and do the following:
->  1. Give it 7 columns and 5 rows,
->  2. Make each 1.5cm wide
->  3. Make the first row the days of the week, starting from Monday (or just Mon). Make these in bold text.
->  4. Put a 1 in the first column on the second row and work up to 28. This should give a calendar for February 2021.
->  5. Create a solid line between the days of the week and the numbers
->  6. Caption it "Calendar for February 2021"
->  7. Give it the label "tab:calendar-feb-2021", write some text to reference this label underneath the table.
+> 1. Give it 7 columns and 5 rows,
+> 2. Make each 1.5cm wide
+> 3. Make the first row the days of the week, starting from Monday (or just Mon). Make these in bold text.
+> 4. Put a 1 in the first column on the second row and work up to 28. This should give a calendar for February 2021.
+> 5. Create a solid line between the days of the week and the numbers
+> 6. Caption it "Calendar for February 2021"
+> 7. Give it the label "tab:calendar-feb-2021", write some text to reference this label underneath the table.
 > > ## Solution
 > > ~~~
 > > \documentclass{article}
