@@ -9,7 +9,7 @@ objectives:
 - ""
 keypoints:
 - "Equations can be entered inline by starting and ending with a $"
-- "Equations can be placed on their own with the \begin{equation} command"
+- "Equations can be placed on their own with the begin{equation} command"
 - "There are lots of specialist symbols like greek letters available as their own commands"
 - "Computer code can be included with the verbatim or listings environments"
 ---

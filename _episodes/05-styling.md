@@ -9,7 +9,7 @@ objectives:
 keypoints:
 - "we can style text with bold, underline, italic, superscript etc"
 - "Some characters such as accented characters, £ signs, percent signs need special LaTeX commands to appear."
-- "Extra spaces don't get shown by LaTeX, use the \space command if you want extra spaces or \newline to get a newline"
+- "Extra spaces don't get shown by LaTeX, use the space command if you want extra spaces or newline to get a newline"
 - "Siunitx"
 - "Lists"
 ---

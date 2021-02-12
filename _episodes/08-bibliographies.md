@@ -9,9 +9,9 @@ objectives:
 keypoints:
 - "LaTeX needs bibliography information to be stored in a separate BibTeX database."
 - "Each bibtex entry needs a unique key"
-- "We cite bibtex entries with the \cite{<keyname>} command"
-- "We make LaTeX display the bibliography with the \bibliography{} command, this also specifies the name of the bibtex database"
-- "We can choose the style of the bibliography with the \bibliographystyle{} command. Common ones are unsrt, plain or named"
+- "We cite bibtex entries with the cite{} command"
+- "We make LaTeX display the bibliography with the bibliography{} command, this also specifies the name of the bibtex database"
+- "We can choose the style of the bibliography with the bibliographystyle{} command. Common ones are unsrt, plain or named"
 - "Many journals will offer you the option to download the BibTeX for a paper"
 ---
 

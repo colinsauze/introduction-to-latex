@@ -9,7 +9,7 @@ objectives:
 keypoints:
 - "LaTeX lets us split up documents into sections, subsections, subsubsections etc."
 - "Some document classes allow extra commands like chapters, tables of contents etc."
-- "We can label parts of the document with the \label{} command and reference them with the \ref{} command"
+- "We can label parts of the document with the label command and reference them with the ref{} command"
 ---
 
 
