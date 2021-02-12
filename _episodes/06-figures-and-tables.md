@@ -131,6 +131,7 @@ See table \ref{tab:example} for a table of numbers.
 > * Create a solid line between the days of the week and the numbers
 > * Caption it "Calendar for February 2021"
 > * Give it the label "tab:calendar-feb-2021", write some text to reference this label underneath the table.
+> > # Solution
 > > ~~~
 > > \documentclass{article}
 > > \begin{document}
