@@ -1,10 +1,10 @@
 ---
 title: "Figues and Tables"
 teaching: 15
-exercises: 5
+exercises: 15
 questions:
 - "How do you create tables in LaTeX?"
-- "How do you insert inmages in LaTeX?"
+- "How do you insert images in LaTeX?"
 objectives:
 - "Understand how to create tables"
 - "Understand how to insert images"
