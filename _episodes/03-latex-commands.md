@@ -10,7 +10,7 @@ objectives:
 keypoints:
 - "LaTeX uses a series of commands all beginning with a \ character"
 - "Some commands take additional arguments between a { and } character"
-- "Some commands take lots of additional content between begin and end commands"
+- "Some commands, known as environments lots of additional content between begin and end commands"
 ---
 
 
@@ -69,9 +69,9 @@ Some commands in LaTeX take an argument or some extra information. This is done 
 ~~~
 {: .latex}
 
-## Begin and End Commands
+## Environments
 
-Our third type of commands use a `\begin` and `\end` statement and span multiple lines. We saw this already with the `\begin{document}` and `\end{document}` commands, the content of our entire document should be between these. These state that everything between the begin and end commands are part of the document. Another command we can use in this way is the `\begin{abstract}` command, the text for our abstract is then placed between this command and the `\begin{abstract}` and the `\end{abstract}`. We can place this anywhere in the code that we like, but we probably want it to appear just after the title and on its own page, so lets take the code we just wrote and add the abstract after the newpage and before the bold hello world.
+Our third type of commands are called environments. They use a `\begin` and `\end` statement and span multiple lines, everything in between the begin and end statement is part of the environment. We saw this already with the `\begin{document}` and `\end{document}` commands, the content of our entire document should be between these. These state that everything between the begin and end commands are part of the document. Another environment we can use in this way is the abstract environment which uses the `\begin{abstract}` command, the text for our abstract is then placed between the `\begin{abstract}` and the `\end{abstract}`. We can place this anywhere in the code that we like, but we probably want it to appear just after the title and on its own page, so lets take the code we just wrote and add the abstract after the newpage and before the bold hello world. Note that the abstract environment is nested inside the document environment.
 
 ~~~
 \documentclass{article}
