@@ -9,7 +9,7 @@ objectives:
 - "Understand how to insert equations and computer code into documents"
 keypoints:
 - "Equations can be entered inline by starting and ending with a $"
-- "Equations can be placed on their own with the begin{equation} command"
+- "Equations can be placed on their own with the \\begin{equation} command"
 - "There are lots of specialist symbols like greek letters available as their own commands"
 - "Computer code can be included with the verbatim or listings environments"
 ---
@@ -115,7 +115,7 @@ The listings package doesn't support the `\caption{}` command we've used on tabl
 
 ### Loading computer code from a file
 
-Computer code can be loaded from a source file instead of being pasted into LaTeX. This way the document can always reflect the latest version of your code. This is done using the `\lstinputlisting{}` command, where the filename is the argument. An optional extra argument can specify the language inside square brackets `[` and `]` symbols with the word `language=` followed by the language name, for example `[language=C]` or `[language=python]`. 
+Computer code can be loaded from a source file instead of being pasted into LaTeX. This way the document can always reflect the latest version of your code. This is done using the `\lstinputlisting{}` command, where the filename is the argument. An optional extra argument can specify the language inside square brackets `[` and `]` symbols with the word `language=` followed by the language name, for example `[language=C]` or `[language=python]`.
 
 ~~~
 \documentclass{article}

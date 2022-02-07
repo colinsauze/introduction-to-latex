@@ -8,7 +8,7 @@ objectives:
 - "Understand how LaTeX commands are structured"
 - "See the difference between commands that take no arguments, one's which take an argument and one's which use a begin and end command."
 keypoints:
-- "LaTeX uses a series of commands all beginning with a \ character"
+- "LaTeX uses a series of commands all beginning with a \\ character"
 - "Some commands take additional arguments between a { and } character"
 - "Some commands, known as environments lots of additional content between begin and end commands"
 ---

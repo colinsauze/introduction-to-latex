@@ -8,7 +8,7 @@ questions:
 objectives:
 - "Understand how to apply styles to LaTeX documents"
 keypoints:
-- "we can style text with bold, underline, italic, superscript etc"
+- "We can style text with bold, underline, italic, superscript etc"
 - "Some characters such as accented characters, £ signs, percent signs need special LaTeX commands to appear."
 - "Extra spaces don't get shown by LaTeX, use the space command if you want extra spaces or newline to get a newline"
 - "Some extra characters can be added by using some extra packages. The Siunitx is one such package, it provides SI units."

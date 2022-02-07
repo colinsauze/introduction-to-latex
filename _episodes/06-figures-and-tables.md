@@ -11,11 +11,11 @@ objectives:
 - "Understand that LaTeX tries to determine where to place images and tables but doesn't always get this right."
 - "Understand how to override the placement options"
 keypoints:
-- "Images are inserted with the begin{figure} command."
-- "Tables are created with the begin{tablular} command."
+- "Images are inserted with the figure environment."
+- "Tables are created with the tablular environment."
 - "Locations can be specified with the [h] option meaning here, of [ht] meaning here, top."
-- "Tables and images can have labels to make their referencing easier"
-- "Tables and images can have captions"
+- "Tables and images can have labels to make their referencing easier."
+- "Tables and images can have captions."
 ---
 
 # Tables in LaTeX
