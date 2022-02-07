@@ -13,10 +13,10 @@ objectives:
 - "Understand some common problems encountered in LaTeX and solutions to them"
 - "Know about some utilities to make LaTeX easier to use"
 keypoints:
-- "Use the hyperref package and url command to handle URLs. Some characters might need escaping"
-- "LaTeX has lots of commands for common special characters you might type in on the keyboard"
-- "Images often appear in the wrong place, use [ht!], resize the image or move the reference to the image to a different place in the LaTeX code"
-- "LaTeX can be hassle especially on smaller documents but really comes into its own on big documents"
+- "Use the hyperref package and url command to handle URLs. Some characters might need escaping."
+- "LaTeX has lots of commands for common special characters you might type in on the keyboard."
+- "Images often appear in the wrong place, use [ht!], resize the image or move the reference to the image to a different place in the LaTeX code."
+- "LaTeX can be hassle especially on smaller documents but really comes into its own on big documents.
 ---
 
 # URL Formatting
