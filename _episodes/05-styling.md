@@ -45,7 +45,7 @@ Text size can be adjusted by using the commands `\tiny`, `\small`, `\normalsize`
 
 ## Special Characters
 
-Some characters which we can type on the keyboard won't actually appear if we type them into a LaTeX document. Perhaps the best example of this is the '%' character which means a comment in LaTeX. To insert this into a document we need to use the `\%` command. There are many other symbols which need LaTeX commands, including the £ symbol (\textsterling or \pounds), the less than and greater than symbols (\textless and \textgrater). See [this webpage from Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Special_Characters#Escaped_codes) for a list of common symbols.
+Some characters which we can type on the keyboard won't actually appear if we type them into a LaTeX document. Perhaps the best example of this is the '%' character which means a comment in LaTeX. To insert this into a document we need to use the `\%` command. There are many other symbols which need LaTeX commands, including the £ symbol (\textsterling or \pounds), the less than and greater than symbols (\textless and \textgrater). See [this webpage from Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Special_Characters#Escaped_codes) for a list of common symbols. Note that Overleaf is smarter than other LaTeX distributions and will accept some special characters like the £ symbol, but these documents will not compile correctly on other LaTeX distributions and you should use the correct commands instead of the symbols.
 
 
 > ## Symbols exercise
