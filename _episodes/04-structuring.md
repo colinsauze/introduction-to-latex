@@ -9,7 +9,7 @@ objectives:
 keypoints:
 - "LaTeX lets us split up documents into sections, subsections, subsubsections etc."
 - "Some document classes allow extra commands like chapters, tables of contents etc."
-- "We can label parts of the document with the label command and reference them with the ref{} command"
+- "We can label parts of the document with the label command and reference them with the \ref{} command"
 ---
 
 
@@ -150,7 +150,7 @@ To add Appendicies on the end of a document we need to first use a class that su
 
 
 ## Labelling and Referencing Sections
-It can be useful to be able to reference another section by its number of a document sometimes, for example to be able to say "see section 5 for more discussion about this". LaTeX can help us do this and automatically keep the section number correct even as we make changes to the document. To do this we need to do two things, firstly we have to label the section being referred to and then we have to reference that label. This is done with the `\label{}` and `\reference{}` commands. The label command wants us to give the label a name, by convention if we're labelling a section we'll start the label with "sec:", a subsection with "subsec:". As we'll see later labels can also be used for figures and tables and these would start their labels "fig:" or "tab:". This is only a convention though and LaTeX doesn't actually care what you use, but when you create a large document with hundreds of labels it can really help to know which is which.
+It can be useful to be able to reference another section by its number of a document sometimes, for example to be able to say "see section 5 for more discussion about this". LaTeX can help us do this and automatically keep the section number correct even as we make changes to the document. To do this we need to do two things, firstly we have to label the section being referred to and then we have to reference that label. This is done with the `\label{}` and `\ref{}` commands. The label command wants us to give the label a name, by convention if we're labelling a section we'll start the label with "sec:", a subsection with "subsec:". As we'll see later labels can also be used for figures and tables and these would start their labels "fig:" or "tab:". This is only a convention though and LaTeX doesn't actually care what you use, but when you create a large document with hundreds of labels it can really help to know which is which.
 
 ~~~
 \documentclass{article}
