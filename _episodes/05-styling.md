@@ -119,8 +119,9 @@ Its also possible to nest one list inside another, even if that list is of a dif
 
 > ## Lists and packages exercises
 > 1. Replace the _____ sections with the correct answers.
-> 2. What does [binary-units=true] do on the second line?
-> 3. What does \sisetup{group-separator = {,}} do on the third line?
+> 2. What does \sisetup{group-separator = {,}} do on the third line?
+> 3. What happens if you change the group-separator to a dot (.) symbol?
+> Note: newer versions of the siunitx package do not need the [binary-units=true] modifier, this enabled siunitx to handle bytes as a unit.
 > ~~~
 > \documentclass{article}
 > \usepackage[binary-units=true]{siunitx}
@@ -130,7 +131,7 @@ Its also possible to nest one list inside another, even if that list is of a dif
 > 		\item \SI{1}{\tera\byte} (terabyte) is equivalent to:
 > 		\begin{_________}
 > 			\item \SI{1024}{\___\byte} (gigabytes)
-> 			\item \SI{1048576}{\mega\byte} (megabytes)
+> 			\item \SI{1048576}{\___\byte} (megabytes)
 > 			\item \SI{1099511627776}{\kilo\byte} (kilobytes)
 > 			\item \SI{1208925819614629174706176}{\byte} (bytes)
 > 		\end{enumerate}
@@ -139,9 +140,8 @@ Its also possible to nest one list inside another, even if that list is of a dif
 > ~~~
 > {: .latex}
 > > ## Solution
-> > 1. enumerate and giga
-> > 2. Allows us to use the \byte in siunitx, since bytes aren't actually an SI unit
-> > 3. Makes the separator between each 3 digits a comma instead of the default space.
+> > 1. enumerate, giga and mega.
+> > 2. Makes the separator between each 3 digits a comma instead of the default space.
 > {: .solution}
 {: .challenge}
 
